@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Visualization</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Stock Visualization</h1>
+    <form method="POST">
+        <label for="ticker">Ticker:</label>
+        <input type="text" id="ticker" name="ticker" required>
+        <br>
+        <label for="start_date">Start Date:</label>
+        <input type="date" id="start_date" name="start_date" required>
+        <br>
+        <label for="end_date">End Date:</label>
+        <input type="date" id="end_date" name="end_date" required>
+        <br>
+        <label for="rsi_14">RSI_14</label>
+        <input type="checkbox" id="rsi_14" name="rsi_14" value="true">
+        <br>
+        <label for="stochd_14_3_3">STOCHd_14_3_3</label>
+        <input type="checkbox" id="stochd_14_3_3" name="stochd_14_3_3" value="true">
+        <br>
+        <label for="stochk_14_3_3">STOCHk_14_3_3</label>
+        <input type="checkbox" id="stochk_14_3_3" name="stochk_14_3_3" value="true">
+        <br>
+        <label for="macd_12_26_9">MACD_12_26_9</label>
+        <input type="checkbox" id="macd_12_26_9" name="macd_12_26_9" value="true">
+        <br>
+        <label for="macdh_12_26_9">MACDh_12_26_9</label>
+        <input type="checkbox" id="macdh_12_26_9" name="macdh_12_26_9" value="true">
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="chart-container">{{ chart }}</div>
+</body>
+</html>
