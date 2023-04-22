@@ -1,0 +1,87 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set base font styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+}
+
+/* Style the main header */
+h1 {
+    padding: 20px;
+    background-color: #2a2c35;
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    border-bottom: 3px solid #2ea2ff;
+}
+
+/* Style the form and its elements */
+form {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin: 12px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+form input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+form input[type="checkbox"] + label {
+    display: inline;
+    margin-left: 5px;
+    font-weight: normal;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #2ea2ff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: #1c8adb;
+}
+
+/* Style the chart container */
+#chart-container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
