@@ -14,3 +14,10 @@ python app.py
 
 *The application will be accessible at http://127.0.0.1:5000.*
 
+
+# Application Preview
+
+<img width="1312" alt="Screenshot 2023-04-22 at 3 13 49 PM" src="https://user-images.githubusercontent.com/77685328/233802474-764f926b-e7e6-4ed0-87ee-de4a31cd9fa3.png">
+
+<img width="1310" alt="Screenshot 2023-04-22 at 3 14 42 PM" src="https://user-images.githubusercontent.com/77685328/233802477-d9606a37-5014-45f3-9141-e1886fbcf1c7.png">
+
