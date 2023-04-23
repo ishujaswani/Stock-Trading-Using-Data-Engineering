@@ -97,15 +97,3 @@ def index():
 
 if __name__ == '__main__':
     app.run(debug=True,use_reloader=False,port=5000)
-
-
-#why are we using these technologies 
-
-#- more focus on data engg
-#- why pyspark 
-
-#different senarios
-#data questions - quality and governance (kaggle) (open source) (checks)
-#- we can do quality checks. cheaper!
-
-#- 
